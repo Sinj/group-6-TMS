@@ -22,7 +22,7 @@ public class TrafficManagementSystem {
 
         try {
 
-            socket = new Socket("192.168.0.80", 5000);
+            socket = new Socket("192.168.0.196", 5000);
 
             Writer write = new Writer(socket);
             Reader read = new Reader(socket);

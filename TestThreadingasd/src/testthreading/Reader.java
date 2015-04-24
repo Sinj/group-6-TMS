@@ -4,6 +4,7 @@
  */
 package testthreading;
 
+import static com.sun.org.apache.xalan.internal.lib.ExsltDatetime.time;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -14,7 +15,7 @@ import java.util.List;
 
 /**
  *
- * @author Holly-Marie, Sinjun-Strydom, Adam
+ * @author Holly-Marie
  */
 public class Reader implements Runnable {
 
